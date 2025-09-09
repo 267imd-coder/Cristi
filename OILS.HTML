@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EL PUNTO — Olive Oils</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body class="en">
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo"><img src="images/el-punto-logo.svg" alt="EL PUNTO"/></a>
+      <div class="header-icons">
+        <a href="#"><i class="fa-regular fa-heart"></i><span class="count">0</span></a>
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i><span class="count">0</span></a>
+      </div>
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html"><span class="en">Home</span><span class="ro">Acasă</span><span class="es">Inicio</span></a></li>
+          <li><a href="wines.html"><span class="en">Wines</span><span class="ro">Vinuri</span><span class="es">Vinos</span></a></li>
+          <li><a href="oils.html" class="active"><span class="en">Olive Oil</span><span class="ro">Ulei de măsline</span><span class="es">Aceite de Oliva</span></a></li>
+          <li><a href="meats.html"><span class="en">Meats</span><span class="ro">Carne</span><span class="es">Carnes</span></a></li>
+          <li><a href="cart.html"><span class="en">Cart</span><span class="ro">Coș</span><span class="es">Carrito</span></a></li>
+        </ul>
+      </nav>
+      <div class="lang-switch">
+        <button id="lang-en">EN</button> | <button id="lang-ro">RO</button> | <button id="lang-es">ES</button>
+      </div>
+	  <div class="whatsapp-header">
+  <a href="https://wa.me/40723123456" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+</div>
+
+      <button class="nav-toggle" id="nav-toggle">☰</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2><span class="en">Premium Olive Oils</span><span class="ro">Uleiuri de măsline premium</span><span class="es">Aceites de oliva premium</span></h2>
+      <p><span class="en">Extra virgin oils from Andalusia.</span><span class="ro">Uleiuri extravirgine din Andaluzia.</span><span class="es">Aceites virgen extra de Andalucía.</span></p>
+    </div>
+  </section>
+
+  <section class="products">
+    <div class="products-grid">
+      <!-- 10 Oils (bottle images) -->
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/416471/pexels-photo-416471.jpeg" alt="Picual EVOO"/>
+        <h3><span class="en">Picual EVOO</span><span class="ro">Picual EVOO</span><span class="es">Picual AOVE</span></h3>
+        <p>€12.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input class="qty-input" type="text" value="1"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Picual EVOO" data-price="12"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/1249573/pexels-photo-1249573.jpeg" alt="Arbequina EVOO"/>
+        <h3><span class="en">Arbequina EVOO</span><span class="ro">Arbequina EVOO</span><span class="es">Arbequina AOVE</span></h3>
+        <p>€11.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input class="qty-input" type="text" value="1"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Arbequina EVOO" data-price="11"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/1267341/pexels-photo-1267341.jpeg" alt="Hojiblanca EVOO"/>
+        <h3><span class="en">Hojiblanca EVOO</span><span class="ro">Hojiblanca EVOO</span><span class="es">Hojiblanca AOVE</span></h3>
+        <p>€13.50</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input class="qty-input" type="text" value="1"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Hojiblanca EVOO" data-price="13.5"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/6065406/pexels-photo-6065406.jpeg" alt="Coupage EVOO"/>
+        <h3><span class="en">Coupage EVOO</span><span class="ro">Coupage EVOO</span><span class="es">Coupage AOVE</span></h3>
+        <p>€14.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input class="qty-input" type="text" value="1"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Coupage EVOO" data-price="14"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/6065414/pexels-photo-6065414.jpeg" alt="Organic EVOO"/>
+        <h3><span class="en">Organic EVOO</span><span class="ro">EVOO Organic</span><span class="es">AOVE Orgánico</span></h3>
+        <p>€16.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input class="qty-input" type="text" value="1"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Organic EVOO" data-price="16"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/6065412/pexels-photo-6065412.jpeg" alt="Chili Infused Oil"/>
+        <h3><span class="en">Chili Infused Oil</span><span class="ro">Ulei infuzat cu ardei</span><span class="es">Aceite con chile</span></h3>
+        <p>€9.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input class="qty-input" type="text" value="1"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Chili Infused Oil" data-price="9"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/6065408/pexels-photo-6065408.jpeg" alt="Garlic Infused Oil"/>
+        <h3><span class="en">Garlic Infused Oil</span><span class="ro">Ulei infuzat cu usturoi</span><span class="es">Aceite con ajo</span></h3>
+        <p>€9.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input class="qty-input" type="text" value="1"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Garlic Infused Oil" data-price="9"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/6065410/pexels-photo-6065410.jpeg" alt="Basil Infused Oil"/>
+        <h3><span class="en">Basil Infused Oil</span><span class="ro">Ulei infuzat cu busuioc</span><span class="es">Aceite con albahaca</span></h3>
+        <p>€9.50</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input class="qty-input" type="text" value="1"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Basil Infused Oil" data-price="9.5"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/6065416/pexels-photo-6065416.jpeg" alt="Lemon Infused Oil"/>
+        <h3><span class="en">Lemon Infused Oil</span><span class="ro">Ulei infuzat cu lămâie</span><span class="es">Aceite con limón</span></h3>
+        <p>€9.50</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input class="qty-input" type="text" value="1"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Lemon Infused Oil" data-price="9.5"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/6065418/pexels-photo-6065418.jpeg" alt="Truffle Oil"/>
+        <h3><span class="en">Truffle Oil</span><span class="ro">Ulei cu trufe</span><span class="es">Aceite de trufa</span></h3>
+        <p>€18.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input class="qty-input" type="text" value="1"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Truffle Oil" data-price="18"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+  <p>
+  <a href="https://www.instagram.com/yourusername" target="_blank">
+    <i class="fa-brands fa-instagram"></i> Instagram
+  </a>
+</p>
+    <div class="footer-content">
+      <p><strong><span class="en">Address:</span><span class="ro">Adresă:</span><span class="es">Dirección:</span></strong> Str. Example 12, Sibiu, Romania</p>
+      <p><strong>Email:</strong> info@elpunto.ro</p>
+      <p><strong><span class="en">Phone:</span><span class="ro">Telefon:</span><span class="es">Teléfono:</span></strong> +40 123 456 789</p>
+    </div>
+    <p class="copy">© 2025 EL PUNTO</p>
+  </footer>
+
+  <button id="back-to-top">↑</button>
+  <script src="main.js"></script>
+</body>
+</html>

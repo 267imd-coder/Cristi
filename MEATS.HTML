@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EL PUNTO — Meats</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body class="en">
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo"><img src="images/el-punto-logo.svg" alt="EL PUNTO"/></a>
+      <div class="header-icons">
+        <a href="#"><i class="fa-regular fa-heart"></i><span class="count">0</span></a>
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i><span class="count">0</span></a>
+      </div>
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html"><span class="en">Home</span><span class="ro">Acasă</span><span class="es">Inicio</span></a></li>
+          <li><a href="wines.html"><span class="en">Wines</span><span class="ro">Vinuri</span><span class="es">Vinos</span></a></li>
+          <li><a href="oils.html"><span class="en">Olive Oil</span><span class="ro">Ulei de măsline</span><span class="es">Aceite de Oliva</span></a></li>
+          <li><a href="meats.html" class="active"><span class="en">Meats</span><span class="ro">Carne</span><span class="es">Carnes</span></a></li>
+          <li><a href="cart.html"><span class="en">Cart</span><span class="ro">Coș</span><span class="es">Carrito</span></a></li>
+        </ul>
+      </nav>
+      <div class="lang-switch">
+        <button id="lang-en">EN</button> | <button id="lang-ro">RO</button> | <button id="lang-es">ES</button>
+      </div>
+	  <div class="whatsapp-header">
+  <a href="https://wa.me/40723123456" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+</div>
+
+      <button class="nav-toggle" id="nav-toggle">☰</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2><span class="en">Spanish Meats & Cured Cuts</span><span class="ro">Cărnuri și mezeluri spaniole</span><span class="es">Carnes y embutidos españoles</span></h2>
+      <p><span class="en">Jamón, chorizo, lomo & more.</span><span class="ro">Jamón, chorizo, lomo și altele.</span><span class="es">Jamón, chorizo, lomo y más.</span></p>
+    </div>
+  </section>
+
+  <section class="products">
+    <div class="products-grid">
+      <!-- 10 Meats (consistent image sizes) -->
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg" alt="Jamón Serrano"/>
+        <h3><span class="en">Jamón Serrano</span><span class="ro">Jamón Serrano</span><span class="es">Jamón Serrano</span></h3>
+        <p>€29.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input class="qty-input" type="text" value="1"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Jamón Serrano" data-price="29"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg" alt="Jamón Ibérico"/>
+        <h3><span class="en">Jamón Ibérico</span><span class="ro">Jamón Ibérico</span><span class="es">Jamón Ibérico</span></h3>
+        <p>€45.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input class="qty-input" type="text" value="1"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Jamón Ibérico" data-price="45"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/4106481/pexels-photo-4106481.jpeg" alt="Chorizo Ibérico"/>
+        <h3><span class="en">Chorizo Ibérico</span><span class="ro">Chorizo Ibérico</span><span class="es">Chorizo Ibérico</span></h3>
+        <p>€9.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input class="qty-input" type="text" value="1"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Chorizo Ibérico" data-price="9"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/7692892/pexels-photo-7692892.jpeg" alt="Lomo Embuchado"/>
+        <h3><span class="en">Lomo Embuchado</span><span class="ro">Lomo Embuchado</span><span class="es">Lomo Embuchado</span></h3>
+        <p>€14.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input class="qty-input" type="text" value="1"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Lomo Embuchado" data-price="14"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/6937459/pexels-photo-6937459.jpeg" alt="Salchichón"/>
+        <h3><span class="en">Salchichón</span><span class="ro">Salchichón</span><span class="es">Salchichón</span></h3>
+        <p>€8.50</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input class="qty-input" type="text" value="1"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Salchichón" data-price="8.5"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/5212085/pexels-photo-5212085.jpeg" alt="Chistorra"/>
+        <h3><span class="en">Chistorra</span><span class="ro">Chistorra</span><span class="es">Chistorra</span></h3>
+        <p>€7.50</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input class="qty-input" type="text" value="1"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Chistorra" data-price="7.5"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/7692899/pexels-photo-7692899.jpeg" alt="Fuet Catalán"/>
+        <h3><span class="en">Fuet Catalán</span><span class="ro">Fuet catalan</span><span class="es">Fuet catalán</span></h3>
+        <p>€6.50</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input class="qty-input" type="text" value="1"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Fuet Catalán" data-price="6.5"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/7380246/pexels-photo-7380246.jpeg" alt="Cecina de León"/>
+        <h3><span class="en">Cecina de León</span><span class="ro">Cecina de León</span><span class="es">Cecina de León</span></h3>
+        <p>€19.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input class="qty-input" type="text" value="1"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Cecina de León" data-price="19"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/7692901/pexels-photo-7692901.jpeg" alt="Morcilla"/>
+        <h3><span class="en">Morcilla</span><span class="ro">Morcilla</span><span class="es">Morcilla</span></h3>
+        <p>€5.50</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input class="qty-input" type="text" value="1"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Morcilla" data-price="5.5"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/7692920/pexels-photo-7692920.jpeg" alt="Sobrasada"/>
+        <h3><span class="en">Sobrasada</span><span class="ro">Sobrasada</span><span class="es">Sobrasada</span></h3>
+        <p>€7.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input class="qty-input" type="text" value="1"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Sobrasada" data-price="7"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+  <p>
+  <a href="https://www.instagram.com/yourusername" target="_blank">
+    <i class="fa-brands fa-instagram"></i> Instagram
+  </a>
+</p>
+    <div class="footer-content">
+      <p><strong><span class="en">Address:</span><span class="ro">Adresă:</span><span class="es">Dirección:</span></strong> Str. Example 12, Sibiu, Romania</p>
+      <p><strong>Email:</strong> info@elpunto.ro</p>
+      <p><strong><span class="en">Phone:</span><span class="ro">Telefon:</span><span class="es">Teléfono:</span></strong> +40 123 456 789</p>
+    </div>
+    <p class="copy">© 2025 EL PUNTO</p>
+  </footer>
+
+  <button id="back-to-top">↑</button>
+  <script src="main.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
+</body>
+</html>

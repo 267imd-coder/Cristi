@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EL PUNTO — Cart</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body class="en">
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo"><img src="images/el-punto-logo.svg" alt="EL PUNTO"/></a>
+      <div class="header-icons">
+        <a href="#"><i class="fa-regular fa-heart"></i><span class="count">0</span></a>
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i><span class="count">0</span></a>
+      </div>
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html"><span class="en">Home</span><span class="ro">Acasă</span><span class="es">Inicio</span></a></li>
+          <li><a href="wines.html"><span class="en">Wines</span><span class="ro">Vinuri</span><span class="es">Vinos</span></a></li>
+          <li><a href="oils.html"><span class="en">Olive Oil</span><span class="ro">Ulei de măsline</span><span class="es">Aceite de Oliva</span></a></li>
+          <li><a href="meats.html"><span class="en">Meats</span><span class="ro">Carne</span><span class="es">Carnes</span></a></li>
+          <li><a href="cart.html" class="active"><span class="en">Cart</span><span class="ro">Coș</span><span class="es">Carrito</span></a></li>
+        </ul>
+      </nav>
+      <div class="lang-switch">
+        <button id="lang-en">EN</button> | <button id="lang-ro">RO</button> | <button id="lang-es">ES</button>
+      </div>
+      <button class="nav-toggle" id="nav-toggle">☰</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>
+        <span class="en">Your Shopping Cart</span>
+        <span class="ro">Coșul tău</span>
+        <span class="es">Tu carrito</span>
+      </h2>
+      <p>
+        <span class="en">Review your items and proceed to checkout.</span>
+        <span class="ro">Verifică produsele și mergi la plată.</span>
+        <span class="es">Revisa tus artículos y procede al pago.</span>
+      </p>
+    </div>
+  </section>
+
+  <section class="cart">
+    <div id="cart-container"></div>
+    <button id="checkout-btn" class="checkout-btn">
+      <span class="en">Proceed to Checkout</span>
+      <span class="ro">Mergi la plată</span>
+      <span class="es">Ir a pagar</span>
+    </button>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+	<p>
+  <a href="https://www.instagram.com/yourusername" target="_blank">
+    <i class="fa-brands fa-instagram"></i> Instagram
+  </a>
+</p>
+      <p><strong><span class="en">Address:</span><span class="ro">Adresă:</span><span class="es">Dirección:</span></strong> Str. Example 12, Sibiu, Romania</p>
+      <p><strong>Email:</strong> info@elpunto.ro</p>
+      <p><strong><span class="en">Phone:</span><span class="ro">Telefon:</span><span class="es">Teléfono:</span></strong> +40 123 456 789</p>
+    </div>
+    <p class="copy">© 2025 EL PUNTO</p>
+	
+  </footer>
+
+  <button id="back-to-top">↑</button>
+  <script src="main.js"></script>
+  <!-- WhatsApp Floating Button -->
+<a href="https://wa.me/40123456789" target="_blank" class="whatsapp-float">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+</body>
+</html>

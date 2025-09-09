@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EL PUNTO — Wines</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body class="en">
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo"><img src="images/el-punto-logo.svg" alt="EL PUNTO"/></a>
+      <div class="header-icons">
+        <a href="#"><i class="fa-regular fa-heart"></i><span class="count">0</span></a>
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i><span class="count">0</span></a>
+      </div>
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html"><span class="en">Home</span><span class="ro">Acasă</span><span class="es">Inicio</span></a></li>
+          <li><a href="wines.html" class="active"><span class="en">Wines</span><span class="ro">Vinuri</span><span class="es">Vinos</span></a></li>
+          <li><a href="oils.html"><span class="en">Olive Oil</span><span class="ro">Ulei de măsline</span><span class="es">Aceite de Oliva</span></a></li>
+          <li><a href="meats.html"><span class="en">Meats</span><span class="ro">Carne</span><span class="es">Carnes</span></a></li>
+          <li><a href="cart.html"><span class="en">Cart</span><span class="ro">Coș</span><span class="es">Carrito</span></a></li>
+        </ul>
+      </nav>
+      <div class="lang-switch">
+        <button id="lang-en">EN</button> | <button id="lang-ro">RO</button> | <button id="lang-es">ES</button>
+      </div>
+	  <div class="whatsapp-header">
+  <a href="https://wa.me/40723123456" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+</div>
+      <button class="nav-toggle" id="nav-toggle">☰</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2><span class="en">Our Spanish Wines</span><span class="ro">Vinurile noastre spaniole</span><span class="es">Nuestros vinos españoles</span></h2>
+      <p><span class="en">Taste the best from Rioja & Ribera del Duero.</span><span class="ro">Savurează cele mai bune din Rioja și Ribera del Duero.</span><span class="es">Prueba lo mejor de Rioja y Ribera del Duero.</span></p>
+    </div>
+  </section>
+
+  <section class="products">
+    <div class="products-grid">
+      <!-- 10 Wines -->
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/1407851/pexels-photo-1407851.jpeg" alt="Rioja Red"/>
+        <h3><span class="en">Rioja Red</span><span class="ro">Rioja Roșu</span><span class="es">Rioja Tinto</span></h3>
+        <p>€15.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input type="text" value="1" class="qty-input"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Rioja Red" data-price="15"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg" alt="Ribera Reserva"/>
+        <h3><span class="en">Ribera Reserva</span><span class="ro">Ribera Reserva</span><span class="es">Ribera Reserva</span></h3>
+        <p>€18.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input type="text" value="1" class="qty-input"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Ribera Reserva" data-price="18"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/1571949/pexels-photo-1571949.jpeg" alt="Tempranillo"/>
+        <h3><span class="en">Tempranillo</span><span class="ro">Tempranillo</span><span class="es">Tempranillo</span></h3>
+        <p>€14.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input type="text" value="1" class="qty-input"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Tempranillo" data-price="14"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg" alt="Albariño White"/>
+        <h3><span class="en">Albariño White</span><span class="ro">Albariño Alb</span><span class="es">Albariño Blanco</span></h3>
+        <p>€16.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input type="text" value="1" class="qty-input"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Albariño White" data-price="16"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/274131/pexels-photo-274131.jpeg" alt="Cava Sparkling"/>
+        <h3><span class="en">Cava Sparkling</span><span class="ro">Cava Spumant</span><span class="es">Cava Espumoso</span></h3>
+        <p>€20.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input type="text" value="1" class="qty-input"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Cava Sparkling" data-price="20"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/972530/pexels-photo-972530.jpeg" alt="Sherry Sweet"/>
+        <h3><span class="en">Sherry Sweet</span><span class="ro">Sherry Dulce</span><span class="es">Jerez Dulce</span></h3>
+        <p>€19.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input type="text" value="1" class="qty-input"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Sherry Sweet" data-price="19"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/1407851/pexels-photo-1407851.jpeg" alt="Priorat Red"/>
+        <h3><span class="en">Priorat Red</span><span class="ro">Priorat Roșu</span><span class="es">Priorat Tinto</span></h3>
+        <p>€25.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input type="text" value="1" class="qty-input"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Priorat Red" data-price="25"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/672101/pexels-photo-672101.jpeg" alt="Málaga Dessert Wine"/>
+        <h3><span class="en">Málaga Dessert Wine</span><span class="ro">Vin Desert Málaga</span><span class="es">Vino Dulce Málaga</span></h3>
+        <p>€21.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input type="text" value="1" class="qty-input"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Málaga Dessert Wine" data-price="21"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/2954921/pexels-photo-2954921.jpeg" alt="Garnacha"/>
+        <h3><span class="en">Garnacha</span><span class="ro">Garnacha</span><span class="es">Garnacha</span></h3>
+        <p>€17.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input type="text" value="1" class="qty-input"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Garnacha" data-price="17"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/2903169/pexels-photo-2903169.jpeg" alt="Verdejo"/>
+        <h3><span class="en">Verdejo</span><span class="ro">Verdejo</span><span class="es">Verdejo</span></h3>
+        <p>€13.00</p>
+        <div class="qty-add"><button class="qty-btn">–</button><input type="text" value="1" class="qty-input"><button class="qty-btn">+</button></div>
+        <button class="add-btn" data-name="Verdejo" data-price="13"><span class="en">Add to Cart</span><span class="ro">Adaugă în coș</span><span class="es">Añadir al carrito</span></button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+  <p>
+  <a href="https://www.instagram.com/yourusername" target="_blank">
+    <i class="fa-brands fa-instagram"></i> Instagram
+  </a>
+</p>
+    <div class="footer-content">
+      <p><strong><span class="en">Address:</span><span class="ro">Adresă:</span><span class="es">Dirección:</span></strong> Str. Example 12, Sibiu, Romania</p>
+      <p><strong>Email:</strong> info@elpunto.ro</p>
+      <p><strong><span class="en">Phone:</span><span class="ro">Telefon:</span><span class="es">Teléfono:</span></strong> +40 123 456 789</p>
+    </div>
+    <p class="copy">© 2025 EL PUNTO</p>
+  </footer>
+
+  <button id="back-to-top">↑</button>
+  <script src="main.js"></script>
+</body>
+</html>

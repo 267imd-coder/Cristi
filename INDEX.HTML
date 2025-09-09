@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EL PUNTO - Spanish Products in Sibiu</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="en">
+
+<!-- Header -->
+<header>
+  <div class="container">
+    <a href="index.html" class="logo">
+      <img src="images/el-punto-logo.svg" alt="EL PUNTO"/>
+    </a>
+
+    <div class="header-icons">
+      <a href="#"><i class="fa-regular fa-heart"></i><span class="count">0</span></a>
+      <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i><span class="count">0</span></a>
+    </div>
+
+    <nav id="nav">
+      <ul>
+        <li><a href="index.html" class="active"><span class="en">Home</span><span class="ro">Acasă</span><span class="es">Inicio</span></a></li>
+        <li><a href="wines.html"><span class="en">Wines</span><span class="ro">Vinuri</span><span class="es">Vinos</span></a></li>
+        <li><a href="oils.html"><span class="en">Olive Oil</span><span class="ro">Ulei de măsline</span><span class="es">Aceite de Oliva</span></a></li>
+        <li><a href="meats.html"><span class="en">Meats</span><span class="ro">Carne</span><span class="es">Carnes</span></a></li>
+        <li><a href="cart.html"><span class="en">Cart</span><span class="ro">Coș</span><span class="es">Carrito</span></a></li>
+      </ul>
+    </nav>
+
+    <div class="lang-switch">
+      <button id="lang-en">EN</button> | 
+      <button id="lang-ro">RO</button> | 
+      <button id="lang-es">ES</button>
+    </div>
+
+    <div class="whatsapp-header">
+      <a href="https://wa.me/40723123456" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+    </div>
+
+    <button class="nav-toggle" id="nav-toggle">☰</button>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-text">
+    <h2>
+      <span class="ro">Produse autentice spaniole în Sibiu</span>
+      <span class="en">Authentic Spanish Products in Sibiu</span>
+      <span class="es">Productos auténticos de España en Sibiu</span>
+    </h2>
+    <p>
+      <span class="ro">Descoperă gustul Spaniei — vinuri, uleiuri de măsline, carne și multe altele.</span>
+      <span class="en">Discover the taste of Spain — Wines, Olive Oils, Meats & more.</span>
+      <span class="es">Descubre el sabor de España — Vinos, Aceites de Oliva, Carnes y más.</span>
+    </p>
+    <a href="#categories" class="btn">
+      <span class="ro">Vezi Produsele</span>
+      <span class="en">Browse Products</span>
+      <span class="es">Ver Productos</span>
+    </a>
+  </div>
+</section>
+
+<!-- Subscribe -->
+<section class="subscribe">
+  <p>
+    <span class="ro">Abonează-te pentru oferte și noutăți</span>
+    <span class="en">Subscribe for offers & updates</span>
+    <span class="es">Suscríbete para ofertas y novedades</span>
+  </p>
+  <form action="#" class="subscribe-form">
+    <input type="email" placeholder="Email">
+    <button type="submit">OK</button>
+  </form>
+</section>
+
+<!-- Categories -->
+<section id="categories" class="categories">
+  <h2>
+    <span class="ro">Produsele Noastre</span>
+    <span class="en">Our Products</span>
+    <span class="es">Nuestros Productos</span>
+  </h2>
+  <div class="grid">
+    <!-- Wine -->
+    <div class="card">
+      <a href="wines.html">
+        <img src="https://images.pexels.com/photos/1407851/pexels-photo-1407851.jpeg" alt="Spanish Wine">
+      </a>
+      <div class="card-content">
+        <h3><span class="ro">Vinuri</span><span class="en">Wines</span><span class="es">Vinos</span></h3>
+        <p>
+          <span class="ro">Selecție de vinuri spaniole direct din Rioja și Ribera del Duero.</span>
+          <span class="en">Fine selection of Spanish wines directly from Rioja & Ribera del Duero.</span>
+          <span class="es">Selección de vinos españoles directamente de Rioja y Ribera del Duero.</span>
+        </p>
+      </div>
+    </div>
+    <!-- Olive Oil -->
+    <div class="card">
+      <a href="oils.html">
+        <img src="https://images.pexels.com/photos/416471/pexels-photo-416471.jpeg" alt="Olive Oil">
+      </a>
+      <div class="card-content">
+        <h3><span class="ro">Uleiuri</span><span class="en">Olive Oils</span><span class="es">Aceites de Oliva</span></h3>
+        <p>
+          <span class="ro">Uleiuri extra virgin premium din Andaluzia.</span>
+          <span class="en">Premium extra virgin olive oils from Andalusia.</span>
+          <span class="es">Aceites de oliva virgen extra premium de Andalucía.</span>
+        </p>
+      </div>
+    </div>
+    <!-- Meats -->
+    <div class="card">
+      <a href="meats.html">
+        <img src="https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg" alt="Spanish Meats">
+      </a>
+      <div class="card-content">
+        <h3><span class="ro">Carne</span><span class="en">Meats</span><span class="es">Carnes</span></h3>
+        <p>
+          <span class="ro">Jamón, chorizo și specialități iberice tradiționale.</span>
+          <span class="en">Traditional jamón, chorizo, and Iberian specialties.</span>
+          <span class="es">Jamón, chorizo y especialidades ibéricas tradicionales.</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="about">
+  <h2><span class="ro">Despre Noi</span><span class="en">About Us</span><span class="es">Sobre Nosotros</span></h2>
+  <p>
+    <span class="ro">Aducem aromele autentice ale Spaniei în Sibiu, România. Vizitează magazinul nostru și descoperă cele mai bune produse spaniole.</span>
+    <span class="en">We bring the authentic flavors of Spain to Sibiu, Romania. Visit our shop and experience the best Spanish products curated with passion.</span>
+    <span class="es">Traemos los sabores auténticos de España a Sibiu, Rumanía. Visita nuestra tienda y descubre los mejores productos españoles seleccionados con pasión.</span>
+  </p>
+</section>
+
+<!-- Footer -->
+<footer id="contact">
+  <div class="footer-content">
+
+    <!-- Contact Info -->
+    <p>
+      <strong><span class="ro">Adresă:</span><span class="en">Address:</span><span class="es">Dirección:</span></strong> 
+      Strada Example 12, Sibiu, Romania
+    </p>
+    <p>
+      <strong>Email:</strong> info@elpunto.ro
+    </p>
+    <p>
+      <strong><span class="ro">Telefon:</span><span class="en">Phone:</span><span class="es">Teléfono:</span></strong> 
+      +40 123 456 789
+    </p>
+
+    <!-- Google Maps Embed -->
+    <div class="map-container">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2744.127709695268!2d24.1494!3d45.7983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474c6789abcdef%3A0x1234567890abcdef!2sStrada%20Example%2012%2C%20Sibiu%2C%20Romania!5e0!3m2!1sen!2sro!4v1700000000000"
+        width="100%" height="200" style="border:0;" 
+        allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+
+    <!-- Instagram -->
+    <p>
+      <a href="https://www.instagram.com/yourusername" target="_blank">
+        <i class="fa-brands fa-instagram"></i> Instagram
+      </a>
+    </p>
+
+    <p>© 2025 EL PUNTO</p>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button id="back-to-top">↑</button>
+
+<script src="main.js"></script>
+</body>
+</html>
